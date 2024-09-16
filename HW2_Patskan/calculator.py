@@ -5,3 +5,11 @@
 #Функция сложения
 def addition(a, b):
     return a + b
+
+#Функция деления
+def division(a, b):
+    if b == 0:
+        return 'На ноль делить нельзя'
+    else:
+        return a / b
+
