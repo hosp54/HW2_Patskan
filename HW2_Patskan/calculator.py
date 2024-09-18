@@ -5,3 +5,9 @@
 #Функция сложения
 def addition(a, b):
     return a + b
+
+#Функция умножения:
+def multiplication(a, b):
+    res = a * b
+    return res
+
