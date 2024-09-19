@@ -11,6 +11,11 @@ def addition(a, b):
 def subtraction(a, b):
     return a - b
 
+#Функция умножения:
+def multiplication(a, b):
+    res = a * b
+    return res
+
 #Функция деления
 def division(a, b):
     if b == 0:
@@ -42,6 +47,7 @@ def main():
             res = subtraction(elements[0], elements[2])
             print(res)
         main()
+
 
 
 
