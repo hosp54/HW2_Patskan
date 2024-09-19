@@ -2,9 +2,14 @@
 # Input - user enters numbers and operation sign
 # Authors: Афанасьева, Кудашева, Пацкан, Шипунова
 
+
 #Функция сложения
 def addition(a, b):
     return a + b
+
+#Функция вычитания
+def subtraction(a, b):
+    return a - b
 
 #Функция деления
 def division(a, b):
@@ -37,3 +42,6 @@ def main():
             res = subtraction(elements[0], elements[2])
             print(res)
         main()
+
+
+
